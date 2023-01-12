@@ -108,4 +108,6 @@ router.post('/goods', async (req, res) => {
   res.json({goods: createdGoods})
 })
 
+
+
 module.exports = router; // router 변수를 밖으로 내보내준다.

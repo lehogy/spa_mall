@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+
 app.use('/api', [goodsRouter, cartsRouter]) // 전역 미들웨어 → api 경로가 추가된 경우 모두 goodsRouter로 가라
 
 app.listen(port, () => {
